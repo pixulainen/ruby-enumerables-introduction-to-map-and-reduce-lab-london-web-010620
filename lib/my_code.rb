@@ -37,7 +37,12 @@ end
 
 # reduce like functions
 def reduce_to_total(source_array, starting_point)
-  
+  counter = 0 
+  total= 0
+  if counter < source_array.size
+    total +=source_array[counter] + starting_point
+    counter +=1 
+  end
 end
 
 
