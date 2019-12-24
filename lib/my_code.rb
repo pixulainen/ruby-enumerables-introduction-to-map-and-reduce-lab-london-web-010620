@@ -64,5 +64,5 @@ def reduce_to_any_true(source_array)
   return false if source_array[index] == false || nil
   index +=1
   end
-  true
+  return true
 end
