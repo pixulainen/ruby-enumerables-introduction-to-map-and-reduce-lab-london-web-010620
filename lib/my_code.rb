@@ -49,7 +49,17 @@ end
 
 
 def reduce_to_all_true(source_array)
-  
+  def reduce_to_all_true(source_array)
+  index = 0
+  while index< source.array.size 
+  if source_array[index] == false
+  return false
+  else 
+  return source_array
+  index +=1
+  end
+end
+end
 end
 
 
