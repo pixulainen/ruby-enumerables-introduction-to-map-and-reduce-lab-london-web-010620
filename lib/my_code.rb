@@ -61,7 +61,7 @@ end
 def reduce_to_any_true(source_array)
   index =0 
   while index < source_array.size
-  return false if source_array[index] == false || nil
+  return true if source_array[index] == false || nil
   index +=1
   end
   return true
