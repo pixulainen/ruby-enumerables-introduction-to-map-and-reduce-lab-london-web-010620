@@ -36,14 +36,14 @@ end
 
 
 # reduce like functions
-def reduce_to_total(source_array, starting_point = 0)
-  counter = 0 
-  total= starting_point
-  if counter < source_array.size
-    total = source_array[counter] + total
-    counter +=1 
-  end
-  total 
+def reduce_to_total(source_array, starting_point )
+total = starting_point
+counter = 0
+while counter< source_array.size 
+total += source_array[counter]
+counter +=1
+end
+total
 end
 
 
