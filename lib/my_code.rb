@@ -1,17 +1,17 @@
 source_array=[2,4,5,]
 def map_to_negativize(source_array)
-new_array = []
-counter = 0 
-while counter < source_array.size
-new_array << source_array[counter] * -1
-counter +=1
-end
- new_array
+  new_array = []
+  counter = 0 
+  while counter < source_array.size
+  new_array << source_array[counter] * -1
+  counter +=1
+  end
+   new_array
 end
 
 
 def map_to_no_change(source_array)
-return source_array
+  return source_array
 end
 
  def map_to_double(source_array)
@@ -22,7 +22,7 @@ end
   counter +=1
   end
   new_array
-  end
+end
   
  def map_to_square(source_array)
   new_array = []
@@ -32,7 +32,7 @@ end
   counter +=1
   end
   new_array
-  end
+end
 
 
 # reduce like functions
